@@ -13,7 +13,8 @@ seccion = st.sidebar.radio("Ir a:", [
     "Contacto"
 ])
 
-# Secciones según la selección\if seccion == "Inicio":
+# Secciones según la selección
+if seccion == "Inicio":
     st.title("✈️ AeroMind AI")
     st.subheader("Intelligent Load & Fuel Optimization for Sustainable Aviation")
     st.markdown("""
@@ -54,7 +55,7 @@ elif seccion == "Contacto":
     ¿Quieres una demo personalizada o conocer cómo AeroMind AI puede integrarse en tu flota? Escríbenos:
 
     📧 contacto@aeromind.ai  
-    
+    🌐 www.aeromind.ai
     """)
 
 # Footer general
