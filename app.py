@@ -47,7 +47,7 @@ elif seccion == "Casos de uso":
 
 elif seccion == "Demo":
     st.header("🧪 Prueba nuestra Demo")
-    st.markdown("Prueba la simulación [aquí](https://aeroptimize-demo.streamlit.app/) para ver el sistema en acción.")
+    st.markdown("Prueba la simulación [aquí](https://github.com/jftmames/aerooptimize-demo) para ver el sistema en acción.")
 
 elif seccion == "Contacto":
     st.header("📬 Contacto")
